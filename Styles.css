@@ -1,9 +1,51 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #96ADC8;
+}
+.banner {
+    padding-left: 10px;
+    background-color:#19647E ;
+    color: whitesmoke;
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    font-size: 3rem;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.btn-menu {
+    background-color: transparent;
+    border: transparent;
+    color: black
+}
+
+.bi-list {
+color:whitesmoke;
+}
+
 .add-task {
-    display: inline-flex;
-    align-items: center;
-    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
 }
 
 .add-task-label {
     margin-left: 3px;
+}
+
+.bottom-banner {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    bottom: 0;
+    position: fixed;
+    background-color: #19647E;
+    width: 100%;
+    color:whitesmoke;
+    padding: 0px 10px 0px 10px;
 }
