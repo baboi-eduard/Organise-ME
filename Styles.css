@@ -1,0 +1,9 @@
+.add-task {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.add-task-label {
+    margin-left: 3px;
+}
