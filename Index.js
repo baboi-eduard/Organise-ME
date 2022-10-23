@@ -9,5 +9,5 @@ function addTask() {
       <div class="task-hour">8:00</div>
     </div>
     `;
-  document.getElementsByClassName("task-container").appendChild(div);
+  document.getElementById("task-container").appendChild(div);
 }
