@@ -54,9 +54,6 @@ body {
   display: flex;
 }
 
-.confirmation-button {
-}
-
 .bottom-banner {
   display: flex;
   justify-content: space-between;
@@ -68,4 +65,12 @@ body {
   width: 100%;
   color: whitesmoke;
   padding: 0px 10px 0px 10px;
+}
+
+.task-container {
+  width: 35rem;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  font-size: 1.5rem;
 }
