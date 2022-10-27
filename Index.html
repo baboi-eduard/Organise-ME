@@ -32,9 +32,18 @@
 
     <div class="add-task">
       <div class="add-task-input">
-        <input class="the-new-task" type="text" placeholder="add your task" />
+        <input
+          class="the-new-task"
+          type="text"
+          required
+          placeholder="add your task"
+        />
       </div>
-      <button class="btn btn-light add-task-button" onclick="addTask()">
+      <button
+        id="add-tsk-btn"
+        class="btn btn-light add-task-button"
+        onclick="addTask()"
+      >
         <i class="bi bi-check-lg"></i>
       </button>
     </div>
