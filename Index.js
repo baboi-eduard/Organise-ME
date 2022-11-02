@@ -10,13 +10,22 @@ function addTask() {
   const div = document.createElement("div");
 
   div.className = "confirmed-task";
-
-  div.innerHTML =
-    inputText.value +
-    ` <button class="edit-btn btn ">
+  if (inputText.value === "") {
+    alert("Please enter task name!");
+  } else {
+    div.innerHTML =
+      inputText.value +
+      ` <button class="edit-btn btn ">
   <i class="bi bi-pencil-square"></i>
 </button>`;
-  document.getElementById("task-container").appendChild(div);
+    document.getElementById("task-container").appendChild(div);
 
-  inputText.value = "";
+    inputText.value = "";
+  }
 }
+
+var thatsIt = document.querySelector(".confirmation-button");
+thatsIt.addEventListener("click", () => {
+  let container = document.getElementById("task-container");
+  container.innerHTML = "";
+});
