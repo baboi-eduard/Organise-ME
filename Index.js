@@ -17,7 +17,10 @@ function addTask() {
       inputText.value +
       ` <button class="edit-btn btn ">
   <i class="bi bi-pencil-square"></i>
-</button>`;
+</button> 
+       <button class="delete-btn btn">
+  <i class="bi bi-x-circle"></i>
+  </button>`;
     document.getElementById("task-container").appendChild(div);
 
     inputText.value = "";
